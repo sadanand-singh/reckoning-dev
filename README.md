@@ -26,4 +26,8 @@ My personal website build using [Astro](https://astro.build/) and using the  [As
 
 ## License
 
-**AstroWind** is licensed under the Unlicense license — see the [LICENSE](https://github.com/onwidget/astrowind/blob/main/LICENSE.md) file for details.
+This repository is not a template for reuse and has no open-source license, but I'm hosting it publicly as a learning experience. Unless otherwise noted, all rights are reserved (copyright Sadanand Singh 2014–Present).
+
+You are more than welcome to fork/clone this repo and explore the code. However, you may not redistribute any content that I own in this repo without my permission, unless I've already attributed it to someone else. When in doubt, please feel free to message me and ask!
+
+If you want to reuse just the bare-bones skeleton of this repo, please use the [AstroWind](https://github.com/onwidget/astrowind) theme. I've also written various articles about Astro that you may find useful.

@@ -1,15 +1,15 @@
 export const SITE = {
 	name: 'AstroWind',
 
-	origin: 'https://astrowind.vercel.app',
+	origin: 'https://reckoning.dev',
 	basePathname: '/',
 	trailingSlash: false,
 
-	title: 'AstroWind — Your website with Astro + Tailwind CSS',
-	description: '🚀 AstroWind is a free and ready to start template to make your website using Astro and Tailwind CSS.',
+	title: 'reckoning.dev',
+	description: 'Sadanand Singh Blog and Digital Garden',
 
 	googleAnalyticsId: false, // or "G-XXXXXXXXXX",
-	googleSiteVerificationId: 'orcPxI47GSa-cRvY11tUe6iGg2IO_RPvnA1q95iEM3M',
+	googleSiteVerificationId: 'Kc5zG0PUs3CNQKoYQND99oy4K8Dpt63JavA1WFy7OXY',
 };
 
 export const BLOG = {

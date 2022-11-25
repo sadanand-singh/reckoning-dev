@@ -16,6 +16,32 @@
   display: block;
 }
 
+@keyframes rotate {
+	from {
+	  transform: rotate(0deg);
+	}
+	to {
+	  transform: rotate(360deg);
+	}
+  }
+
+  .blob {
+	z-index: -10;
+  }
+
+  .blob-bg {
+	transform: scale(2.85);
+	z-index: -10;
+  }
+
+  .blob-rotate {
+	animation: rotate 50s linear infinite;
+  }
+
+  .blob-rotate-faster {
+	animation: rotate 25s linear infinite;
+  }
+
 
 [astro-icon].icon-light > * {
 	stroke-width: 1.2;

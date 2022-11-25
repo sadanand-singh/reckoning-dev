@@ -1,59 +1,60 @@
 ---
-import { Icon } from 'astro-icon';
 import Picture from '~/components/core/Picture.astro';
 ---
 
 <section>
-	<div class="max-w-6xl mx-auto px-4 sm:px-6">
-		<div class="py-12 md:py-20">
-			<div class="text-center pb-10 md:pb-16 max-w-5xl mx-auto">
-				<h1 class="text-5xl md:text-[3.50rem] font-bold leading-tighter tracking-tighter mb-4 font-heading">
-					Your website with
-					<span>Astro</span> +
-					<span
-						class="sm:whitespace-nowrap"
-						>Tailwind CSS</span
+	<div class="max-w-6xl mx-auto px-4 sm:px-6 mb-8">
+		<div class="mt-12 flex flex-col-reverse lg:flex-row items-center lg:justify-between lg:space-x-6">
+			<div>
+				<h1 class="text-left mt-4 mb-4">
+					<strong class="text-4xl bg-clip-text text-transparent bg-gradient-to-r from-blue-500 to-purple-500">
+						Hi There!</strong
 					>
+					<br class="mb-6" />
+					<br class="mb-6" />
+					<span class="mt-12 lg:mt-0 max-w-3xl text-base sm:text-base sm:text-left md:text-center lg:text-left">
+						This is my digital garden for all things related to deep learning, machine learning, algorithms, maths, food
+						and everything else!
+						<br /><br />
+						I am a Principal Research Scientist <a
+							href="https://micron.com"
+							class="text-purple-500 hover:text-purple-700 no-und font-bold"
+							target="_blank"
+							rel="noopener noreferrer">@micron,</a
+						> Photography Enthusiast, and a Foodie!
+					</span>
 				</h1>
-				<div class="max-w-3xl mx-auto">
-					<p class="text-xl text-gray-600 mb-8 dark:text-slate-400">
-						<span class="font-semibold">AstroWind</span> is a production ready template to start your new website using <em>Astro</em> + <em>Tailwind CSS</em>. It has been
-						designed following Best Practices, SEO, Accessibility, <span class="inline sm:hidden">...</span><span
-							class="hidden sm:inline"
-							>Dark Mode, Great Page Speed, image optimization, sitemap generation and more.</span
+			</div>
+
+			<div class="relative">
+				<div aria-hidden="true">
+					<div class="relative blob h-48 md:h-56 lg:h-64">
+						<svg
+							class="blob-rotate-faster h-full fill-[#77d7ed]"
+							viewBox="0 0 278 279"
+							xmlns="http://www.w3.org/2000/svg"
 						>
-					</p>
-					<div class="max-w-sm m-auto flex flex-nowrap flex-col sm:flex-row sm:justify-center gap-4">
-						<div class="flex w-full sm:w-auto">
-							<a
-								class="btn btn-primary sm:mb-0 w-full"
-								href="https://github.com/onwidget/astrowind"
-								target="_blank"
-								rel="noopener"
-							>
-								<Icon name="tabler:download" class="w-5 h-5 mr-1 -ml-1.5" /> Get template
-							</a>
-						</div>
-						<div class="flex w-full sm:w-auto">
-							<a
-								class="btn w-full"
-								href="#features">Learn more</a
-							>
-						</div>
+							<path
+								d="M137.896 0.127761C167.59 -0.638578 198.383 1.62824 222.877 18.4301C247.738 35.4836 263.129 63.014 271.706 91.9151C280.118 120.258 280.513 150.661 270.364 178.43C260.457 205.538 239.342 225.92 216.353 243.372C192.903 261.174 167.336 278.631 137.896 278.994C108.28 279.358 81.0666 263.928 58.0226 245.322C35.8955 227.455 20.5343 203.415 11.0775 176.594C1.41508 149.191 -4.23875 119.749 3.91245 91.8587C12.2111 63.4638 31.6331 39.4483 56.0438 22.7357C79.9856 6.34414 108.89 0.876363 137.896 0.127761Z"
+							></path>
+						</svg>
 					</div>
 				</div>
-			</div>
-			<div>
-				<div class="relative m-auto max-w-4xl">
-					<Picture
-						src={import('~/assets/images/hero.jpg')}
-						class="mx-auto rounded-md bg-gray-400 dark:bg-slate-700 w-full"
-						widths={[400, 768, 1480]}
-						sizes="(max-width: 767px) 400px, (max-width: 1479px) 768px, 1480px"
-						alt="Hero Image"
-						aspectRatio="16:9"
-						loading="eager"
-					/>
+				<div class="absolute w-full h-full top-0 flex items-center justify-center">
+					<div class="h-32 w-32 md:h-40 md:w-40 lg:h-48 lg:w-48 rounded-full overflow-hidden">
+						<div>
+							<div class="relative m-auto max-w-4xl">
+								<Picture
+									src={import('~/assets/images/programmer.png')}
+									class="mx-auto rounded-md w-full"
+									widths={[200]}
+									sizes="200px"
+									alt="Hero Image"
+									loading="eager"
+								/>
+							</div>
+						</div>
+					</div>
 				</div>
 			</div>
 		</div>
